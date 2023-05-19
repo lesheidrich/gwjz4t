@@ -1,3 +1,3 @@
-output "fileId" {
-  value = data.local_file.task_4.id
+output "file_ID" {
+  value = data.local_file.four.id
 }

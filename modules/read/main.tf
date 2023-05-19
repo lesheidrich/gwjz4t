@@ -1,6 +1,6 @@
-module "fileCreator" {
+module "make_dir" {
   source        = "../files"
-  content = "bane of my existence"
-  name = "read module"
-  input_var = var.input_variable
+  content       = "Bane of my existence"
+  name          = "Two"
+  number_of_files = var.file_count
 }
