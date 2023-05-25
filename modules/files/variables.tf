@@ -1,15 +1,15 @@
 variable "number_of_files" {
-  description = "How many files to create"
-  type        = number
+  description = "Files to gen"
   default     = 3
+  type        = number
 }
 
 variable "content" {
-  description = "The content of the files"
   type        = string
+  description = "File contents"
 }
 
 variable "name" {
-  description = "The name of the files"
   type        = string
+  description = "File name"
 }

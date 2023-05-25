@@ -1,4 +1,5 @@
-variable "input_variable" {
-  description = "Input variable for the read module"
-  type        = string
+variable "file_count" {
+  type        = number
+  description = "File amnt"
+  default     = 3
 }
